@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.container-fluid {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fcf6ef;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+.btn{
+  color: #fff;
+  background-color: #f2a12c;
+  width: 300px;
+  border-radius: 30px;
+}
+.sb-example-1 .search {
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.sb-example-1 .searchTerm {
+  width: 100%;
+  border: 3px solid #f2a12c;
+  border-right: none;
+  padding: 5px;
+  border-radius: 30px;
+  outline: none;
+  color: #9DBFAF;
+}
+.sb-example-1 .searchTerm:focus{
+  color: #00B4CC;
+}
+.sb-example-1 .searchButton {
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.hero-cont{
+  margin-top: 2rem;
+}
+.cardbox{
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.catergory img{
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 5px 5px #fff5e7;
+  margin-top: 1rem;
+}
+.card{
+  width: 12rem;
+  
+}
+.card-img-top{
+width: 12rem;
+}
+.bi-star{
+  color: #f2a12c;
+}
+@media screen and (max-width: 500px){
+  .container-fluid {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+  }
+  .logo{
+    width: 200px;
+  }
+  .catergory img{
+    width: 45px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 320px){
+  .container-fluid {
+    max-width: auto;
+    justify-items: center;
+    height: auto;
+  }
+  .btn{
+    align-items: baseline;
+  }
+  
+  
+}
+
